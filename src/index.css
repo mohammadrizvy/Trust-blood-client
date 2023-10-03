@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navitems a.active {
+  padding: 12px ;
+  border-radius: 50px;
+  background-color:  #de2d45 !important;
+  color: white;
+  
+}
+
+.navitems a :hover{
+  text-decoration: underline !important;
+}
